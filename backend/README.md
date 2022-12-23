@@ -16,7 +16,7 @@ Vantagens de usar **Scrum:**
 * Auto-Organização das demandas
 * Mais adaptado ao modelo de lançamentos, ligados aos sprints e que condiz com a proposta do site.
 
-## Dependências
+## Dependências para o backend
 
 Para o backend em Java as tecnologias utilizadas seriam:
 
@@ -36,9 +36,20 @@ Irá validar os dados passados para nossa api. Irá retornar possível erros par
 
 Gerencia o envio de emails através do Spring. Será usado pois em um e-commerce fazemos a verificação de uma nova conta através de token.
 
-* [Srping Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
+* [Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
 
 Irá fazer a conversão entre os objetos vindo de uma tabela(modelo relacional), para o modelo de objetos.
+
+* [Spring Security](https://docs.spring.io/spring-security/reference/index.html)
+
+Realiza a segurança dos endpoints.
+
+## Para o frontend
+
+* React como tecnologia frontend, além de html, css e javascript para a parte estática do front.
+* Através do React poderemos consumir nossa api e adicionar os dados corretos para o e-commerce, login, logout, compras e afins.
+* Através de uma tecnologia no frontend poderemos criar páginas melhores pois elas funcionarão como SPA(Single Page Application)
+* Também se faz válido o uso de bootstrap para estilização de componentes da página com alguns valores pré-configurados.
 
 ## Estratégia para migração
 
