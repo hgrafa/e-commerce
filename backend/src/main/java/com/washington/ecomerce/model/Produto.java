@@ -6,7 +6,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.*;
 
 @Document
-@Data @NoArgsConstructor
+@Getter 
+@Setter 
+@AllArgsConstructor 
+@NoArgsConstructor
+@Builder
 public class Produto {
 
   @Id
